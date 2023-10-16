@@ -6,7 +6,6 @@ public class Gauss{
 
     static void gauss(double [][] matrix){
         
-
         int lenMat = matrix.length;
         double[] variaveis = new double[lenMat];
 
@@ -14,13 +13,8 @@ public class Gauss{
             System.out.println("Solucao impossivel! Mais variaveis do que equações.");
             return;
         }
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                
-            }
-        }
 
-        System.out.println("Estado inicial:\n");
+        System.out.println("Estado 0:\n");
 
         for (int p = 0; p < lenMat; p++) {
             for (int q = 0; q < matrix[0].length; q++) {
